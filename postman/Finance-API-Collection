@@ -1,0 +1,704 @@
+{
+  "info": {
+    "_postman_id": "1f0113cb-f35e-4029-a9a8-883f489f996d",
+    "name": "Finance Backend APIs",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "48659799",
+    "_collection_link": "https://go.postman.co/collection/48659799-1f0113cb-f35e-4029-a9a8-883f489f996d?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "http://localhost:8080",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080"
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:8080",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080"
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:8080/users",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"name\": \"Vinay\",\r\n  \"email\": \"vinay@gmail.com\",\r\n  \"role\": \"ADMIN\",\r\n  \"status\": \"ACTIVE\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/users",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "users"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:8080/records?role=ADMIN",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"amount\": 5000,\r\n  \"type\": \"INCOME\",\r\n  \"category\": \"Salary\",\r\n  \"date\": \"2026-04-02\",\r\n  \"notes\": \"April salary\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/records?role=ADMIN",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "records"
+          ],
+          "query": [
+            {
+              "key": "role",
+              "value": "ADMIN"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:8080/records?role=ADMIN",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"amount\": 5000,\r\n  \"type\": \"INCOME\",\r\n  \"category\": \"Salary\",\r\n  \"date\": \"2026-04-02\",\r\n  \"notes\": \"April salary\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/records?role=ADMIN",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "records"
+          ],
+          "query": [
+            {
+              "key": "role",
+              "value": "ADMIN"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:8080/records?role=ADMIN",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"amount\": 5000,\r\n  \"type\": \"INCOME\",\r\n  \"category\": \"Salary\",\r\n  \"date\": \"2026-04-02\",\r\n  \"notes\": \"April salary\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/records?role=ADMIN",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "records"
+          ],
+          "query": [
+            {
+              "key": "role",
+              "value": "ADMIN"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:8080/records",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"amount\": 5000,\r\n  \"type\": \"INCOME\",\r\n  \"category\": \"Salary\",\r\n  \"date\": \"2026-04-02\",\r\n  \"notes\": \"April salary\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/records",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "records"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:8080/dashboard/summary",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"amount\": 5000,\r\n  \"type\": \"INCOME\",\r\n  \"category\": \"Salary\",\r\n  \"date\": \"2026-04-02\",\r\n  \"notes\": \"April salary\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/dashboard/summary",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "dashboard",
+            "summary"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:8080/records?role=VIEWER",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"amount\": 7000,\r\n  \"type\": \"INCOME\",\r\n  \"category\": \"Salary\",\r\n  \"date\": \"2026-04-03\",\r\n  \"notes\": \"Updated salary\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/records?role=VIEWER",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "records"
+          ],
+          "query": [
+            {
+              "key": "role",
+              "value": "VIEWER"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:8080/records?role=VIEWER",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"amount\": 7000,\r\n  \"type\": \"INCOME\",\r\n  \"category\": \"Salary\",\r\n  \"date\": \"2026-04-03\",\r\n  \"notes\": \"Updated salary\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/records?role=VIEWER",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "records"
+          ],
+          "query": [
+            {
+              "key": "role",
+              "value": "VIEWER"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:8080/records?role=VIEWER",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"amount\": 7000,\r\n  \"type\": \"INCOME\",\r\n  \"category\": \"Salary\",\r\n  \"date\": \"2026-04-03\",\r\n  \"notes\": \"Updated salary\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/records?role=VIEWER",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "records"
+          ],
+          "query": [
+            {
+              "key": "role",
+              "value": "VIEWER"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:8080/dashboard/summary",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"amount\": 7000,\r\n  \"type\": \"INCOME\",\r\n  \"category\": \"Salary\",\r\n  \"date\": \"2026-04-03\",\r\n  \"notes\": \"Updated salary\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/dashboard/summary",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "dashboard",
+            "summary"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:8080/dashboard/summary",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"amount\": 7000,\r\n  \"type\": \"INCOME\",\r\n  \"category\": \"Salary\",\r\n  \"date\": \"2026-04-03\",\r\n  \"notes\": \"Updated salary\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/dashboard/summary",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "dashboard",
+            "summary"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:8080/records/2?role=ADMIN",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"amount\": 7000,\r\n  \"type\": \"INCOME\",\r\n  \"category\": \"Salary\",\r\n  \"date\": \"2026-04-03\",\r\n  \"notes\": \"Updated salary\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/records/2?role=ADMIN",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "records",
+            "2"
+          ],
+          "query": [
+            {
+              "key": "role",
+              "value": "ADMIN"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:8080/records/1?role=ADMIN",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"amount\": 7000,\r\n  \"type\": \"INCOME\",\r\n  \"category\": \"Salary\",\r\n  \"date\": \"2026-04-03\",\r\n  \"notes\": \"Updated salary\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/records/1?role=ADMIN",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "records",
+            "1"
+          ],
+          "query": [
+            {
+              "key": "role",
+              "value": "ADMIN"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:8080/records",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"amount\": 2000,\r\n  \"type\": \"EXPENSE\",\r\n  \"category\": \"Food\",\r\n  \"date\": \"2026-04-03\",\r\n  \"notes\": \"Groceries\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/records",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "records"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:8080/records?role=ADMIN",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"amount\": 2000,\r\n  \"type\": \"EXPENSE\",\r\n  \"category\": \"Food\",\r\n  \"date\": \"2026-04-03\",\r\n  \"notes\": \"Groceries\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/records?role=ADMIN",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "records"
+          ],
+          "query": [
+            {
+              "key": "role",
+              "value": "ADMIN"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:8080/records?role=ADMIN",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"amount\": 5000,\r\n  \"type\": \"INCOME\",\r\n  \"category\": \"Salary\",\r\n  \"date\": \"2026-04-03\",\r\n  \"notes\": \"April salary\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/records?role=ADMIN",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "records"
+          ],
+          "query": [
+            {
+              "key": "role",
+              "value": "ADMIN"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:8080/users",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"name\": \"Vinay\",\r\n  \"email\": \"vinay@gmail.com\",\r\n  \"role\": \"ADMIN\",\r\n  \"status\": \"ACTIVE\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/users",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "users"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:8080/users",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"name\": \"Vinay\",\r\n  \"email\": \"vinay@gmail.com\",\r\n  \"role\": \"ADMIN\",\r\n  \"status\": \"ACTIVE\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/users",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "users"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:8080/records/1?role=ADMIN",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"amount\": 7000,\r\n  \"type\": \"INCOME\",\r\n  \"category\": \"Salary\",\r\n  \"date\": \"2026-04-03\",\r\n  \"notes\": \"Updated salary\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/records/1?role=ADMIN",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "records",
+            "1"
+          ],
+          "query": [
+            {
+              "key": "role",
+              "value": "ADMIN"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
