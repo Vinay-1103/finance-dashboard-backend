@@ -310,7 +310,9 @@ http://localhost:8080/h2
 | Unit / Integration tests                | ❌ Planned   |
 
 ---
-
+## API Testing
+Postman collection available in /postman folder
+---
 ## 🚀 Future Improvements
 
 - [ ] JWT-based authentication and token validation
