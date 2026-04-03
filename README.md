@@ -1,4 +1,3 @@
-# finance-dashboard-backend
 # 💰 Finance Dashboard Backend
 
 <p align="center">
